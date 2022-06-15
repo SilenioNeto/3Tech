@@ -1,0 +1,90 @@
+*Classes*/
+.sec-2{
+    margin-top: 40px;
+}
+
+.sec-4{
+    margin-top: 40px;
+}
+
+.col{
+    width: 10%;
+    margin-left: 40px;
+}
+
+.card{
+    margin-bottom: 40px;
+}
+.nome{
+    margin-bottom: 12px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    float:initial;
+}
+/*formulario*/
+.content{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 30px;
+    margin-top: 22px;
+}
+.flex-center{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h3,h4{
+    color: rgb(0, 0, 0);
+    text-align: center;
+   margin: 15px;
+}
+/*acaba aqui*/
+
+.sec-5{
+    height: 700px;
+    background-color:darkblue;
+}
+.parceiros{
+    display: inline-flex;
+    /*margin-left: 200px;
+    margin-top: 50px;*/
+    height: 70px;
+    width: 10%;
+}
+.parcerias{
+    margin-left: 263px;
+}
+
+
+
+#img-6,#img-5{
+    height: 120px;
+    width: 50%;
+}
+
+#img-x{
+  
+   margin-top: 60px;
+    margin-right: 230px;
+    height: 400px;
+    float: right;
+}
+
+.img-logo{
+    padding-left:50px;
+}
+.lado{
+    padding-left: 400px;
+}
+
+.padding-top{
+    margin-top: 25px;
+    padding-top: 25px;
+}
