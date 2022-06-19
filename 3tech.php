@@ -1,3 +1,6 @@
+<?php
+include_once('connect.php');
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
@@ -233,10 +236,10 @@
               <img src="images/simon-abrams-k_T9Zj3SE8k-unsplash.jpg" alt="">
             </div>
             <div class="parceiros">
-              <img src="images/shubham-dhage-ykFTt5Dq1RU-unsplash.jpg" alt="">
+              <img src="images/c-d-x-PDX_a_82obo-unsplash.jpg" alt="">
             </div>
             <div class="parceiros">
-              <img id="img-6" src="images/photo-1535303311164-664fc9ec6532.avif" alt="">
+              <img id="img-6" src="images/cel.jpg" alt="">
             </div>
            
           </div>
