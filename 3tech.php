@@ -1,5 +1,6 @@
 <?php
-include_once('connect.php');
+include_once('./admin/connect.php');
+include_once('./admin/listar.php');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -81,26 +82,21 @@ include_once('connect.php');
       </section>
 
       <section class="sec-2 padding-top">
+        <?php foreach ($results as $posts) : ?>
         <div class="container">
           <div class="row">
             <div class="col">
-              <img
-                src="./images/download (85).webp"
-                alt=""
-                width="569"
-                height="335"
-              />
+              <img src="<?= $posts["imagem"]?>" alt=""  width="569"  height="335" />
             </div>
             <div class="col order-5">
-              <h1>SOBRE</h1>
+              <h1>   <?= $posts["titulo"]?></h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis perferendis illo voluptatem deleniti, ipsum qui
-                suscipit ut vitae ratione? Sint?
+              <?= $posts["descricao"]?>
               </p>
             </div>
           </div>
         </div>
+        <?php endforeach; ?>
       </section>
 
       <section class="sec-3 bg-light padding-top">

@@ -19,12 +19,14 @@ $results = $stmt->fetchALL(PDO::FETCH_ASSOC);
     <tbody>
 	<?php foreach($results as $post): ?>
 		<tr>
-			<td><?= $post["id"] ?></td>
-			<td><?= $post["titulo"] ?></td>
-			<td><?= $post["descricao"] ?></td>
+			<div><td><?= $post["id"] ?></td></div> 
+			<div><td><?= $post["titulo"] ?></td></div>
+			<div><td><?= $post["descricao"] ?></td></div>
 			<td>
-				<div><a href="view.php?id=<?= $post["id"] ?>">Ver</a> </div> 
+				<div><a href="view.php?id=<?= $post["id"] ?>">Ver</a></div> 
+
                 <div> <a href="editar.php?id=<?= $post["id"] ?>">Editar</a></div>
+
 			    <div><a href="deletar.php?id=<?= $post["id"] ?>">X</a></div>
 			</td>
 		</tr>
